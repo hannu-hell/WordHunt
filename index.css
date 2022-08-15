@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.animation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.main-page {
+    display: grid;
+    row-gap: 10px;
+    grid-template-rows: 1fr 0.7fr 400px 0.1fr;
+    height: 100vh;
+}
+
+.rock-attack{
+    width: 180px;
+    align-self: flex-start;
+}
+
+.boy-idle{
+    align-self: flex-end;
+}
+
+.letter-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    color: black;
+    justify-items: center;   
+    row-gap: 10px;
+}
+
+.letter {
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.letter:hover{
+    border: 2px solid black;
+    cursor: pointer;
+    box-shadow: 0px 2px 10px black;
+}
+
+.letter.hidden {
+    border: 3px solid black;
+    cursor:not-allowed;
+    box-shadow: none;
+}
+
+.user-input {
+   display: flex;
+   align-items: center;
+   margin: auto;
+   color: white;
+   gap: 10px;
+   font-weight:bold;
+
+}
+
+.hidden {
+    opacity: 15%;
+}
+
+.main-word {
+    display: flex;
+    flex-basis: auto;
+    gap: 10px;
+    justify-content: center;
+    
+}
+
+
+#pic-a {
+    border:10px solid black;
+    border-radius: 20px;
+}
+#a {
+    background-color: red;
+}
+#b {
+    background-color: orange;
+}
+#c {
+    background-color: yellow;
+}
+#d {
+    background-color: green;
+}
+#e {
+    background-color: blue;
+}
+#f {
+    background-color: indigo;
+}
+#g {
+    background-color: violet;
+}
+#h {
+    background-color: violet;
+}
+#i {
+    background-color: indigo;
+}
+#j {
+    background-color: blue;
+}
+#k {
+    background-color: green;
+}
+#l {
+    background-color: yellow;
+}
+#m {
+    background-color: orange;
+}
+#n {
+    background-color: red;
+}
+#o {
+    background-color: orange;
+}
+#p {
+    background-color: yellow;
+}
+#q {
+    background-color: green;
+}
+#r {
+    background-color: blue;
+}
+#s {
+    background-color: indigo;
+}
+#t {
+    background-color: violet;
+}
+#u {
+    background-color: violet;
+}
+#v {
+    background-color: indigo;
+}
+#w {
+    background-color: blue;
+}
+#x {
+    background-color: green;
+}
+#y {
+    background-color: yellow;
+}
+#z {
+    background-color: orange;
+}
